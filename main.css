@@ -1,0 +1,246 @@
+.container{
+    max-width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+.container-md{
+    max-width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+/*navbar-start*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 1rem;
+    
+}
+.navbar ul{
+    display: flex;   
+    margin-top: 1rem;
+}
+
+.navbar ul a{
+    margin: 0.75rem;  
+    font-weight: 500;
+    color:  white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.welcome-content{
+    margin-top: 5rem;
+    width: 40%;
+
+}
+.welcome-content ul{
+    margin-top: 3rem;
+}
+.welcome-content ul li{
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.welcome-content p{
+    color:white;
+}
+.welcome-content button{
+    padding: 1rem 2rem;
+    background-color: white;
+    border-style: none;
+    border-radius: 0.75rem;
+    margin-top: 3rem;
+}
+.img-welcome{
+    width: 60%;
+    margin-top: 5rem;
+    
+}
+.img-welcome img{
+    width: 100%;
+}
+.box{
+    width: 1rem;
+    height: 1rem;
+    color: rgb(235,195, 20);
+    margin-top: 30rem;
+}
+.img-content{
+    width: 50%;
+}
+.img-content img{
+    width: 100%;
+}
+.margin-top5{
+    margin-top: 25rem;
+}
+.d-flex{
+    display: flex;
+}
+.content-right{
+    width: 50%;
+    text-align: right;
+    
+}
+.content-right h1{
+   margin-left: 15rem;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 2rem;
+   
+}
+.content-right p{
+   color: rgb(80, 79, 78);
+   font-size: 1.25em;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 3rem;
+}
+.content-right button{
+    padding: 1rem 2rem;
+  background-color: rgb(110, 188, 168);
+    border-style: none;
+    border-radius: 0.75rem;
+    margin-top: 3rem;
+    color: white;
+    
+}
+.content-left{
+    width: 50%;
+    text-align: left;
+}
+.content-left h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    
+ }
+ .content-left p{
+    color: rgb(80, 79, 78);
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .content-left button{
+    padding: 1rem 2rem;
+     background-color: rgb(253, 211, 29);
+     border-style: none;
+     border-radius: 0.75rem;
+     margin-top: 3rem;
+     color: white;
+ }
+ 
+ .testimonial h1{
+    text-align: center;
+    margin-top: 10rem;
+ }
+ .test-box{
+    display: flex;
+ }
+ .text-test{
+    width: 65%;
+    
+ }
+ .text-test h1{
+    text-align: left;
+    margin-top: 8rem;
+    color: rgb(253, 211, 29);
+    margin-left: 1rem;
+ }
+ .text-test p{
+    text-align: left;
+    margin-top: 1rem;
+    
+    margin-left: 1rem;
+ }
+ .img-test{
+    width: 20%;
+ }
+ .img-test img{
+    margin-top: 5rem;
+    width: 100%;
+ }
+
+ .contact-us h1{
+    text-align: left;
+    margin-top: 10rem;
+ }
+ .contact-input{
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+    
+ }
+ .contact-input input{
+    margin: 1rem;
+    height: 4rem;
+    border-bottom: 1px black solid;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 1.2em;
+    width: 100%;
+ }
+ .contact-input button{
+    padding: 1rem 2rem;
+    background-color: rgb(110, 188, 168);
+      border-style: none;
+      border-radius: 0.75rem;
+      margin-top: 3rem;
+      color: white;
+      width: 40%;
+
+ }
+ .contact-box{
+    display: flex;
+ }
+ .contact-img{
+    width: 50%;
+ }
+ .contact-img img{
+    margin-top: 5rem;
+    width: 100%;
+    margin-left: 1rem;
+ }
+ .footer{   
+    background-color:rgb(54, 54, 54) ;
+    margin-top: 5rem;
+    padding: 5rem;
+  
+    
+ }
+footer span{
+    border-bottom: 1px solid yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    color:white
+    
+
+}
+.footer-box{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-box h2{
+    color:white;
+    margin-bottom: 2rem;
+}
+.footer-box p{
+    color: white;
+}
+.footer-box ul li {
+    color:white;
+}

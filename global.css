@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+.head-bg{
+    background-image: url(/images/hero-bg.png);
+    background-repeat: no-repeat;
+    
+}
+body{
+    background-image: url(/images/body-bg.jpg);
+    height: 100%;
+    width: auto;
+}
