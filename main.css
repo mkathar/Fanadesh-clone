@@ -234,13 +234,36 @@ footer span{
     display: flex;
     justify-content: space-around;
 }
+.footer-box div{
+    margin: 0rem 1rem 0rem 1rem;
+}
 .footer-box h2{
     color:white;
     margin-bottom: 2rem;
 }
-.footer-box p{
-    color: white;
-}
-.footer-box ul li {
+.footer h1{
+    text-align: center;
     color:white;
+}
+.footer-box p,ul li a{
+    color: white;
+    margin-top: 1rem;
+}
+
+
+.footer-box input{
+    width: 200%;
+    height: 2rem;
+    background-color: white;
+    font-size: 1.1rem;
+    color: rgba(54, 54, 54, 0.5);
+    font-weight: 100;
+}
+.footer-box button{
+    background-color: rgb(253, 211, 29);
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem   ;
+    
 }
